@@ -1,5 +1,66 @@
-body {
-  background-color: #f3f2ef;
-  font-family: 'Square Peg', cursive;
-  font-size: 18pt;
+* {
+  outline: 1px solid red !important;
 }
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+}
+
+.header {
+  background: linear-gradient(to bottom, #ffcccc 0%, #ffffff 100%);;
+  color: #4b4748;
+  border-radius: 2px;
+  text-align: center;
+  padding: 20px;
+}
+
+  h1{
+    font-weight: bold;
+    font-family: 'Square Peg', cursive;
+    font-size: 50pt;
+  }
+
+  h2{
+    font-weight: normal;
+  }
+
+.about-me{
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  text-align: center;
+}
+
+.blogcolumn {
+  flex: 33.33%;
+  text-align: center;
+}
+
+.blog-column-text{
+  text-align: center;
+  padding: 20px;
+}
+
+a{
+  color: #4b4748;
+}
+
+.post-photo{
+    border-radius: 5px;
+    border: 10px
+}
+
+img {  
+  max-width: 100%;  
+  height: auto;  
+  } 
