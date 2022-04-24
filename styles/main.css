@@ -1,11 +1,8 @@
-* {
-  outline: 1px solid red !important;
-}
 
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 .header {
@@ -49,7 +46,7 @@ body {
 }
 
 .blog-column-text{
-  text-align: center;
+  text-align: justify;
   padding: 20px;
 }
 
@@ -66,3 +63,12 @@ img {
   max-width: 100%;  
   height: auto;  
   } 
+
+li{
+  text-align: left;
+}
+
+.blog-footer{
+  text-align: left;
+  padding: 20px;
+}

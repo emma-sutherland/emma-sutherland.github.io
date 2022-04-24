@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Classes and IDs</title>
+        <link href="/Users/emmasutherland/dev-academy/emma-sutherland.github.io/styles/main.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&family=Square+Peg&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="header">
+        <h1>Best Practices:  Classes & IDs</h1> 
+      </div>
+        <div class="blogcolumn">
+          <h2>When to use which?
+          </h2>
+          <p class="blog-column-text">Ask yourself: "is there more than one element which requires the same style, now or at any time in the future?</p>
+            <p class="blog-column-text">Yes? ->  Use a <strong>class</strong></p>
+            <p class="blog-column-text">Maybe? ->  Use a <strong>class</strong></p>
+            <p class="blog-column-text">No? ->  Use an <strong>ID</strong></p>
+        </div>
+        <div class="blogcolumn">
+          <h2>How to name them?
+          </h2>
+          <p class="blog-column-text">Thinking of an understandable name for each class or ID is hard.</p>
+          <p class="blog-column-text">Choosing a good name can save you (and your team) time in the future, reading and maintaining code.</p>
+          <p class="blog-column-text">There are many methodologies that different teams use to standardise how they name classes and IDs in CSS.  For example:  BEM, which is outlined below</p>
+          <p class="blog-column-text">But for now, here are a few very simple pointers:</p>
+          <ul>
+            <li>Use lower case letters for naming.</li> 
+            <li>Try to avoid names that describe the look or position of the element and instead, try to describe how the element fits into the context of the page.  E.g. “sidebar” instead of “left-col”.</li>  
+            <li>Keep class names as short as possible but as long as necessary to describe the group of elements.</li>
+            <li>Use "-" as word delimiters* rather than "_".  This matches the way CSS properties like ‘font-family’ are delimited and so looks pleasing.</li>
+          </ul>   
+          <h2>Block-Element-Modifier (BEM) Method
+          </h2>
+          <p class="blog-column-text">Some methods, such as BEM use specific text delimiters.</p>
+          <p class="blog-column-text">BEM stands for Block, Element, Modifier.</p>
+          <p class="blog-column-text">In the class name, the first word represents the <em>block</em> the element belongs to, the second word represents the <em>element</em> itself, and the third (if needed) is a word to describe what has or could change, the <em>modifier</em>.</p>
+          <p class="blog-column-text">See the image below for an example:  card__button--success{</p>
+          <img class="post-photo" src="/Users/emmasutherland/dev-academy/emma-sutherland.github.io/images/BEM Card example.png" alt="BEM method CSS" style="max-width:100%">
+          <p class="blog-column-text"><a href="https://levelup.gitconnected.com/css-naming-convention-bem-block-element-modifier-2ada852a14d3" target="_blank">Image source</a></p>
+          <p class="blog-column-text"><a href="https://medium.com/tech-tajawal/bem-simple-naming-convention-for-css-classes-9660438d04a2" target="_blank">Click here</a> to learn more about the BEM naming methodology:</p>
+        </div>
+      </div>
+      <div class="blog-footer">
+        <a href="/Users/emmasutherland/dev-academy/emma-sutherland.github.io/index.html">Return to homepage</a>
+      </div>
+    </body>   
+</html>
