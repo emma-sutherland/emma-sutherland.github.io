@@ -42,11 +42,12 @@ body {
 
 .blogcolumn {
   flex: 33.33%;
-  text-align: center;
+  text-align: left;
+  padding: 20px;
 }
 
 .blog-column-text{
-  text-align: justify;
+  text-align: left;
   padding: 20px;
 }
 
@@ -56,7 +57,9 @@ a{
 
 .post-photo{
     border-radius: 5px;
-    border: 10px
+    border: 10px; 
+    height: auto;
+    max-width: 50%;
 }
 
 img {  
