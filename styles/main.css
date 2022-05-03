@@ -43,7 +43,7 @@ body {
 .blogcolumn {
   flex: 33.33%;
   text-align: left;
-  padding: 20px;
+  padding: 10px;
 }
 
 .blog-column-text{
@@ -59,7 +59,7 @@ a{
     border-radius: 5px;
     border: 10px; 
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 img {  
