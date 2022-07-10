@@ -6,6 +6,12 @@
     gap: 30px;
     margin: 20px;
   }
+
+  .column {
+    flex: 33.33%;
+    text-align: center;
+  }
+
  }
 
 /* 1024-768    - tablet */
@@ -16,6 +22,12 @@
     gap: 20px;
     margin: 10px;
   }
+
+  .column {
+    flex: 50%;
+    text-align: center;
+  }
+
  }
 
 /* 480-less    - phone */
@@ -24,6 +36,12 @@
   .row {
     display: block;
   }
+
+  .column {
+    flex: 100%;
+    text-align: center;
+  }
+
  }
 
 body {
@@ -54,12 +72,6 @@ body {
   border-radius: 2px;
   text-align: center;
   padding: 10px;
-}
-
-
-.column {
-  flex: 33.33%;
-  text-align: center;
 }
 
 .blogcolumn {
