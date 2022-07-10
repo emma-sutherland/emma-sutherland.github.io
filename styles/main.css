@@ -1,6 +1,5 @@
 /* 1280-1024   - desktop */
 
- @media all and (min-width: 1024px) and (max-width: 1280px) {
   .row {
     display: flex;
     gap: 30px;
@@ -12,27 +11,23 @@
     text-align: center;
   }
 
- }
-
 /* 1024-768    - tablet */
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .row {
     display: flex;
-    gap: 50px;
-    margin: 20px;
   }
 
   .column {
-    flex: 33%;
+    flex: 50%;
     text-align: center;
   }
 
  }
 
-/* 480-less    - phone */
+/* 480-600    - phone */
 
-@media all and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .row {
     display: block;
   }
