@@ -1,3 +1,26 @@
+/* 1280-1024   - desktop */
+
+ @media all and (min-width: 1024px) and (max-width: 1280px) {
+  .row {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+  }
+ }
+
+/* 1024-768    - tablet */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .row {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+  }
+ }
+
+/* 480-less    - phone */
+
+@media all and (max-width: 480px) { }
 
 body {
   background-color: white;
@@ -29,11 +52,6 @@ body {
   padding: 10px;
 }
 
-.row {
-  display: flex;
-  gap: 30px;
-  margin: 20px;
-}
 
 .column {
   flex: 33.33%;
