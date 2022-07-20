@@ -20,11 +20,13 @@
 @media (min-width: 768) and (max-width: 1023px) {
   .row {
     display: flex;
+    gap: 30px;
+    margin: 20px;
   }
 
   .column {
     flex: 50%;
-    text-align: center;
+    text-align: left;
   }
 
  }
