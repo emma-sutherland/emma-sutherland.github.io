@@ -1,4 +1,8 @@
-/* 1280-1024   - desktop */
+/* media queries */
+
+/* desktop */
+
+@media (min-width: 1024) and (max-width: 1200px) {
 
   .row {
     display: flex;
@@ -11,9 +15,9 @@
     text-align: center;
   }
 
-/* 1024-768    - tablet */
+/* tablet */
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 768) and (max-width: 1023px) {
   .row {
     display: flex;
   }
@@ -25,9 +29,9 @@
 
  }
 
-/* 480-600    - phone */
+/* phone */
 
-@media only screen and (max-width: 600px) {
+@media  (min-width: 320) and (max-width: 767px) {
   .row {
     display: block;
   }
