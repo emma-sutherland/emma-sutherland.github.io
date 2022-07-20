@@ -2,50 +2,62 @@
 
 /* desktop */
 
-@media (min-width: 1024) and (max-width: 1200px) {
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 
-  .row {
-    display: flex;
-    gap: 30px;
-    margin: 20px;
-  }
+    .row {
+      display: flex;
+      gap: 30px;
+      margin: 20px;
+    }
+  
+    .column {
+      flex: 33.33%;
+      text-align: center;
+    }
 
-  .column {
-    flex: 33.33%;
-    text-align: center;
-  }
-
-}  
+}
 
 /* tablet */
 
-@media (min-width: 768) and (max-width: 1023px) {
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
-  .row {
-    display: inline-grid;
-  }
+    .row {
+      display: inline-grid;
+    }
+  
+    .column {
+      flex: 50%;
+      text-align: left;
+      background-color: #f6ced4
+    }
 
-  .column {
-    flex: 50%;
-    text-align: left;
-    background-color: #f6ced4
-  }
-
- }
+}
 
 /* phone */
 
-@media  (min-width: 320) and (max-width: 767px) {
-  .row {
-    display: block;
-  }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-  .column {
-    flex: 100%;
-    text-align: center;
-  }
+    .row {
+      display: block;
+    }
+  
+    .column {
+      flex: 100%;
+      text-align: center;
+    }
 
- }
+}
+
+
 
 body {
   background-color: white;
